@@ -1,0 +1,155 @@
+img, embed, object, video {
+    max-width: 100%;
+}
+
+.tap_target, nav, a, button {
+    min-height: 48;
+    min-width: 48;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.box1 {
+    background-color: aqua;
+    width: 100%;
+    height:100px;
+}
+
+.box2 {
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+}
+
+.box3 {
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+}
+
+
+.box4 {
+    background-color: fuchsia;
+    width: 100%;
+    height:100px;
+}
+
+.box5 {
+    background-color:orange;
+    width: 100%;
+    height: 100px;
+}
+
+.box6 {
+    background-color: indigo;
+    width: 100%;
+    height: 100px;
+}
+
+.box7 {
+    background-color: pink;
+    width: 100%;
+    height:100px;
+}
+
+.box8 {
+    background-color:burlywood;
+    width: 100%;
+    height: 100px;
+}
+
+.box9 {
+    background-color: rosybrown;
+    width: 100%;
+    height: 100px;
+}
+
+.box10 {
+    background-color:peru;
+    width: 100%;
+    height: 100px;
+}
+
+.box11 {
+    background-color: powderblue;
+    width: 100%;
+    height:100px;
+}
+
+.box12 {
+    background-color:blanchedalmond;
+    width: 100%;
+    height: 100px;
+}
+
+.box13 {
+    background-color: yellowgreen;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+@media screen and (min-width: 450px) {
+    .box1 {
+        width: 25%
+    }
+
+    .box2 {
+        width: 75%
+    }
+
+    .box5,.box6 {
+        width: 50%
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .box7,.box8,.box9 {
+        width: 33%
+    }
+
+    .box10, #container2 {
+        width: 50%;
+    }
+
+    .box10 {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .box1,.box3 {
+        width: 25%
+    }
+    .box2 {
+        width: 50%
+    }
+
+    .flex-container {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .box10 {
+        order: 1;
+        width:25%;
+        height: 200px;
+    }
+
+    #container2 {
+        width: 50%
+    }
+
+    .box13 {
+        order: -1;
+        width: 25%;
+        height:200px
+    }
+}
+
